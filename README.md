@@ -1,6 +1,8 @@
+# Derived Findings: 
+
 ![Agent Confidence vs Information-Seeking Behaviors](agent_behavior_information_seeking.png)
 
-Derived Findings: 
+
 I tested a TMaze model on a batch size of 100 agents to gage how information-seeking behavior relates to confidence levels. 
 Out of 100 agents, 65% of agents at a confidence of 0.5 sought out the cue _prior_ to reaching the reward side of the T-maze. 
 As confidence grew in either direction, information-seeking behavior dwindled and instead action was preferred. 
